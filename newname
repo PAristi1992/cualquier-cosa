@@ -1,0 +1,23 @@
+//Esto es una prueba de escritura de una clase en C++
+
+class Prueba{
+
+private:
+	int codigo;
+	char nombre_usuario[20];
+
+public:
+	Prueba(int cod, char nombre[20]){
+		codigo = cod;
+		strcpy(nombre_usuario, nombre);
+	}
+
+	mostrar_codigo(){
+		printf("El código es: %d", codigo);
+	}
+
+	mostrar_usuario(){
+		printf("El nombre de usuario es: %s", nombre_usuario);
+	}
+
+};
