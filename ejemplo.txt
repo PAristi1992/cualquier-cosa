@@ -1,0 +1,5 @@
+Leer más en: https://ayudalinux.com/dos-formas-de-crear-un-archivo-de-texto-desde-la-terminal/nombre = "pablo aristimuño"
+
+nombre.capitalize()
+
+print(f"El nombre ingresado con las primeras letas en mayúscula es: {n
