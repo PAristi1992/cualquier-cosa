@@ -8,7 +8,7 @@ int main (int argc, char* argv[]){
 	
 	printf("A continuación se procesarán los datos ingresados: \n");
 
-	for(int i = 1; i < argc; i+){
+	for(int i=1; i <= argc; i++){
 		printf("- El %d° argumento ingresado es: %s\n", i, argv[i]);
 	}
 
